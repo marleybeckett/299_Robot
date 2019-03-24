@@ -137,7 +137,39 @@ int robotId = 3;
 }
 */
 //=====================================================
+  
+//===================== Upload Coordinates goes here
+ /*
+ 
+if (RobotiD == '1') { 
+Serial.println("Starting in S1");
+int x[] = {1, 5, 1, 1, 1};
+int y[] = {3, 4, 1, 2, 4};
+int d[] = {3, 1, 3, 3, 0};
+}
 
+else if (RobotiD == '2') { 
+Serial.println("Starting in S2");
+int x[] = {5, 1, 2, 3, 4};
+int y[]	= {0, 0, 4, 4, 4};
+int d[] = {1, 3, 0, 0, 0};
+}
+
+else if (RobotiD == '3') { 
+Serial.println("Starting in S3");
+int x[] = {1, 5, 5, 5, 5};
+int y[] = {4, 3, 4, 1, 2};
+int d[] = {3, 1, 1, 1, 1};
+}
+
+else { 
+Serial.println("Did not detect beacon");
+delay(1000);
+// call detect beacon again 
+}
+*/
+//=====================================================
+ 
   int robotId = 1; //or 2 or 3. This number should be a return value from the detectBeacon Function
 
 //PINMODE SETUPS
